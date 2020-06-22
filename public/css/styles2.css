@@ -1,0 +1,12 @@
+/* style for inline form */
+.frm_inline {
+    display: inline;
+}
+legend {
+    font-weight: bold;
+    color: red;
+}
+
+form {
+    width: fit-content;
+}

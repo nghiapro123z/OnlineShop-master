@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Versatile Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/styles2.css">
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Versatile Store</h1>      
+    <p>Mission, Vission & Values</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="/">Versatile Store</a>
+        </div>
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/product/add">Product</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <center>
+        <form action="doAdd" method="POST" >
+            <fieldset style="background-color: #FFFFCC">
+                <legend>ADD NEW PRODUCT</legend>
+                Product Name: <input type="text" name="txtName" id="">
+                <br><br>
+                Category: <input type="text" name="txtCategory" id="">
+                <br><br>
+                Description: <input type="text" name="txtDescription" id="">
+                <br><br>
+                Price: <input type="text" name="txtPrice" id="">
+                <br><br>
+                <input type="submit" value="ADD">
+            </fieldset>
+        </form>
+    </center>
+
+</body>
+</html>

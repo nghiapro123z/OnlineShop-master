@@ -1,0 +1,26 @@
+{
+  "name": "onlineshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "mongodb": "^3.5.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinhdoan795/OnlineShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinhdoan795/OnlineShop/issues"
+  },
+  "homepage": "https://github.com/chinhdoan795/OnlineShop#readme"
+}
