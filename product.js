@@ -40,7 +40,7 @@ router.get('/delete',async (req,res)=>{
     await dbo.collection("products").deleteOne(condition);
     //
     let results = await dbo.collection("products").find({}).toArray();
-    res.render('allProducts',{customers:results});
+    res.render('allProducts',{products:results});
 })
 
 module.exports = router;
