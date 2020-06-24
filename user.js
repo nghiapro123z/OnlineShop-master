@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
         let dbo = client.db("asm");
 
         let result = await dbo.collection("products").find({}).toArray();
-        //res.render("allProduct", { product: result });
+
         var fullUrl = req.protocol + "://" + req.get("host") + "/product";
         res.redirect(fullUrl);
     } else {
